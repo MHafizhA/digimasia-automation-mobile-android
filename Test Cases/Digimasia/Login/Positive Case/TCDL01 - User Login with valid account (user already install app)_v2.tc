@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCDL01 - User Login with valid account (user already install app)_v2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>647a4215-f34b-438f-8d2d-7b494776fba5</testCaseGuid>
+</TestCaseEntity>
