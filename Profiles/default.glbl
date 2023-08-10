@@ -29,4 +29,19 @@
       <initValue>'pass123'</initValue>
       <name>invalidPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Inbox'</initValue>
+      <name>labelNameMail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testerhafizh@gmail.com'</initValue>
+      <name>emailGoogle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abiol12249'</initValue>
+      <name>passGoogle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
