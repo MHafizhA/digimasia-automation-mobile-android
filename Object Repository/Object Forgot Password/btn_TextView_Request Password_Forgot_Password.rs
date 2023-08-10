@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>btn_TextView_Request Password</name>
+   <name>btn_TextView_Request Password_Forgot_Password</name>
    <tag></tag>
    <elementGuidId>56f1b856-ea98-49b9-acef-7551ff6c962c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
