@@ -19,4 +19,14 @@
       <initValue>'C:\\Digimasia App\\app-universal-debug (2).apk'</initValue>
       <name>base_apk</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'user@123.com'</initValue>
+      <name>invalidUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pass123'</initValue>
+      <name>invalidPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
