@@ -7,12 +7,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'hafizh@digimasia.com'</initValue>
-      <name>usernameHafizh</name>
+      <name>usernameMoLeaWizOutlook</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345'</initValue>
-      <name>passwordHafizh</name>
+      <name>passwordMoLeaWizOutlook</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -37,12 +37,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'testerhafizh@gmail.com'</initValue>
-      <name>emailGmail</name>
+      <name>usernameMoLeaWizGmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345'</initValue>
-      <name>passGmail</name>
+      <name>passwordMoLeaWizGmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

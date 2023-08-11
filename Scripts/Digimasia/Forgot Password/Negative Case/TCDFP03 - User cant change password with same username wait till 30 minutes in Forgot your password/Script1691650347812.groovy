@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Forgot your password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), GlobalVariable.usernameHafizh, 
+Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), GlobalVariable.usernameMoLeaWizOutlook, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Request Password_Forgot_Password'), 0)

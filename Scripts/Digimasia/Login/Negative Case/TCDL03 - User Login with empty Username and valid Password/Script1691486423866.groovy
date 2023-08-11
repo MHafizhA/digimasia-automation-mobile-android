@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Username_Login'), '', 0)
 
-Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Password_Login'), GlobalVariable.passwordHafizh, 
+Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Object Login/btn_Login'), 0)

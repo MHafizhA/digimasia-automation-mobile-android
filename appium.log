@@ -118,3 +118,14 @@
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'This is your temporary password. Please use this code to login then proceed to changing your new password.' or . = 'This is your temporary password. Please use this code to login then proceed to changing your new password.')]"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/e52d2a34-089f-4d56-af92-ec8b99d59cb7/elements [39m[32m200[39m [90m65 ms - 139[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e52d2a34-089f-4d56-af92-ec8b99d59cb7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session e52d2a34-089f-4d56-af92-ec8b99d59cb7 from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e52d2a34-089f-4d56-af92-ec8b99d59cb7 [39m[32m200[39m [90m113 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+ to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/7d2265f6-dc82-4a3d-ba64-3aefaeab6243 [39m[32m200[39m [90m101 ms - 14[39m
+[35m[HTTP][39m [90m[39m

@@ -27,7 +27,7 @@ WebUI.comment('Choose server here below this comment!!')
 
 Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Username_Login'), GlobalVariable.usernameHafizh, 
+Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook, 
     0)
 
 Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Password_Login'), '', 0)
