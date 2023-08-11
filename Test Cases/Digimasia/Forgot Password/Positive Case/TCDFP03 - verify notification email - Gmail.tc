@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCDFP03 - verify notification email - Gmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67faaad7-0de4-4d6f-bd54-508dab5bc6cd</testCaseGuid>
+</TestCaseEntity>

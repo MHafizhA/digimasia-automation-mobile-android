@@ -17,26 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.base_apk, true)
+Mobile.startApplication(GlobalVariable.base_apk_gmail, true)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-Mobile.swipe(200, 600, 500, 600)
+Mobile.tapAtPosition(535, 450)
 
-WebUI.comment('Choose server here below this comment!!')
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_code_notification_email_TextView - Gmail'), 0)
 
-Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Forgot your password'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), GlobalVariable.usernameHafizh, 
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_tittle_notification_email_TextView - Password Recovery LoG Inbox - Gmail'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Request Password_Forgot_Password'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Object Login/btn_TextView_Via Email'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Forgot Password/verify_User_Successfully_Receive_Email_Auth_TextView_Your password will be sentto you shortly'), 
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_description_notification_email_TextView - This is your temporary password - Gmail'), 
     0)
 
 Mobile.closeApplication()

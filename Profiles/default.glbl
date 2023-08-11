@@ -37,11 +37,21 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'testerhafizh@gmail.com'</initValue>
-      <name>emailGoogle</name>
+      <name>emailGmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'abiol12249'</initValue>
-      <name>passGoogle</name>
+      <initValue>'12345'</initValue>
+      <name>passGmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Digimasia App\\Microsoft Outlook_4.2227.4_Apkpure.apk'</initValue>
+      <name>base_apk_outlook</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Digimasia App\\gmail-2023-07-23-553967039-release.apk'</initValue>
+      <name>base_apk_gmail</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

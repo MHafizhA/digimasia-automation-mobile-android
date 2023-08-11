@@ -17,26 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.base_apk, true)
-
-WebUI.delay(3)
-
-Mobile.swipe(200, 600, 500, 600)
-
-WebUI.comment('Choose server here below this comment!!')
-
-Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Forgot your password'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), '', 0)
-
-Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Request Password_Forgot_Password'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Chenge_Password_TextView - Please fill your username'), 
-    0)
+Mobile.startApplication(GlobalVariable.base_apk_outlook, true)
 
 WebUI.delay(5)
+
+Mobile.tapAtPosition(540, 450)
+
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_code_notification_email_TextView - Outlook'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_tittle_notification_email_TextView - Password Recovery LoG - Outlook'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_description_notification_email_TextView - This is your temporary password - Outlook'), 
+    0)
 
 Mobile.closeApplication()
 

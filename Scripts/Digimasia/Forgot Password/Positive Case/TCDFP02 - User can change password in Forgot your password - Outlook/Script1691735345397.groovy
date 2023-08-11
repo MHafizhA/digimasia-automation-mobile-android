@@ -29,14 +29,17 @@ Mobile.tap(findTestObject('Server/server-App-Staging'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Forgot your password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), '', 0)
+Mobile.setText(findTestObject('Object Repository/Object Forgot Password/input_EditText_Username_Forgot_Password'), GlobalVariable.usernameHafizh, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Object Forgot Password/btn_TextView_Request Password_Forgot_Password'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Chenge_Password_TextView - Please fill your username'), 
+Mobile.tap(findTestObject('Object Repository/Object Login/btn_TextView_Via Email'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Object Forgot Password/verify_User_Successfully_Receive_Email_Auth_TextView_Your password will be sentto you shortly'), 
     0)
 
-WebUI.delay(5)
-
 Mobile.closeApplication()
+
+Mobile.startApplication(GlobalVariable.base_apk, true)
 
