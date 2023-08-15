@@ -45,5 +45,13 @@ Mobile.tap(findTestObject('Object Repository/Object Login/btn_TextView_DONE_Logi
 
 Mobile.verifyElementVisible(findTestObject('Object Login/verify_User_Successfully_Login_PP'), 0)
 
+Mobile.tap(findTestObject('Object Login/btn_Setting_widget.Button_Login'), 0)
+
+Mobile.tap(findTestObject('Object Login/btn_Text_Log_Out_view.ViewGroup_Login'), 0)
+
+Mobile.tap(findTestObject('Object Login/btn_Log_Out_view.ViewGroup_Login'), 0)
+
+WebUI.delay(3)
+
 Mobile.closeApplication()
 

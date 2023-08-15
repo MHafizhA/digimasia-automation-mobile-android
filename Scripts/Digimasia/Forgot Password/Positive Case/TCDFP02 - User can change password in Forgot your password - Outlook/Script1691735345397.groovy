@@ -41,5 +41,3 @@ Mobile.verifyElementVisible(findTestObject('Object Repository/Object Forgot Pass
 
 Mobile.closeApplication()
 
-Mobile.startApplication(GlobalVariable.base_apk, true)
-
