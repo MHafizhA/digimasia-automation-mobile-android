@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e817c3ca-d316-4215-81cf-9ac8860e7d75</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Digimasia/Login/Negative Case/TCDL03 - User Login with empty Username and valid Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

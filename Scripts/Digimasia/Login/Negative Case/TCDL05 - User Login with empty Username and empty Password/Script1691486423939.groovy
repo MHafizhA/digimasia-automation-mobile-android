@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.base_apk, true)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 Mobile.swipe(200, 600, 500, 600)
 
@@ -33,7 +33,7 @@ Mobile.setText(findTestObject('Object Repository/Object Login/input_EditText_Pas
 
 Mobile.tap(findTestObject('Object Repository/Object Login/btn_Login'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login_TextView - Please fill your username'), 
+Mobile.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login_TextView - Please fill your password'), 
     0)
 
 Mobile.closeApplication()

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>verify_code_notification_email_TextView - Outlook</name>
+   <name>verify_Unsuccessfully_Change_Password_widget.TextView - New password doesnt match_Settings</name>
    <tag></tag>
-   <elementGuidId>967c8853-a6f4-4e74-a730-d4e7ab6f9994</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,31 +12,31 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>39b90931-d517-44ab-ae51-977eefc96ea4</webElementGuid>
+      <webElementGuid>5fd0f05e-7d00-4795-ba6e-e21183d341b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>3abe3c68-4b38-4ae0-bf2a-81108cbc5ca4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>4303d6d4-959c-43b2-96a1-92e6aa5c8870</webElementGuid>
+      <value>2</value>
+      <webElementGuid>2209921b-7a4b-46ed-acce-52a388cce232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New password doesn’t match</value>
+      <webElementGuid>d8c881ae-91a0-42d3-83e5-a8f40c04221e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.microsoft.office.outlook</value>
-      <webElementGuid>447f23ac-c65d-4d18-8e0d-69f33b8d033b</webElementGuid>
+      <value>com.digimasia.moleawiz</value>
+      <webElementGuid>97012789-02fb-4602-9f2f-f82f0442eccf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5cd82f86-da52-4910-92c2-67c19786a0ea</webElementGuid>
+      <webElementGuid>b7f19ba9-7b2a-42ca-aec8-897f6f6f4cbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>415d798f-a2c5-43b0-932b-cc7ee896dade</webElementGuid>
+      <webElementGuid>b32e3a0f-3981-4802-859d-ba7b340e789a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0de32052-0215-429e-a9b4-64dd4170289b</webElementGuid>
+      <webElementGuid>277a3ae3-39bb-47bd-b7b2-83abe3af71e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cb3695b2-189f-42eb-bab0-651c572fcf11</webElementGuid>
+      <webElementGuid>ef67796e-bc45-43f4-b82b-f2812e8ce1fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4f903f2e-d8f9-4085-8885-de56589c10f0</webElementGuid>
+      <webElementGuid>1f4f8c9a-66e8-4c12-b71c-6e1685c90a36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ae4c81eb-47e1-48a6-9083-0d1115e1037f</webElementGuid>
+      <webElementGuid>8cfdbfd0-c3a7-413d-b7ba-5194d62def52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7f21e268-a720-45fc-b364-00f5147d717c</webElementGuid>
+      <webElementGuid>172eabac-5f1f-4c86-bd2d-f7e6826349d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>db965cee-acc1-43ef-8a71-842177e90333</webElementGuid>
+      <webElementGuid>22f37c4b-ba28-4e57-93b8-97ca8d73812e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9771a5e6-647d-46a4-8b4c-9f248b0f4d37</webElementGuid>
+      <webElementGuid>358a228c-0e3d-43e7-a8aa-7f145d813c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,64 +116,64 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>654e5edc-fed9-4e44-9b92-b7e1c62f1b49</webElementGuid>
+      <webElementGuid>f8efba42-2c1d-4cb1-ad59-be4f26e34bb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>45</value>
-      <webElementGuid>cce6b356-6e76-4a84-9c4f-1bfbb05a297d</webElementGuid>
+      <value>69</value>
+      <webElementGuid>18b9b319-7597-4d14-9804-956dd492b472</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1374</value>
-      <webElementGuid>f952a4de-8c0e-43b6-869f-52fa0b706466</webElementGuid>
+      <value>564</value>
+      <webElementGuid>f0bd9947-adc5-45a8-8e2e-706b4f17981d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>990</value>
-      <webElementGuid>808c824d-41f1-4980-9b4f-9f08fbb734d9</webElementGuid>
+      <value>942</value>
+      <webElementGuid>3fe12277-ca04-46d8-b5ce-15d9b48c51b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>102</value>
-      <webElementGuid>7395b4a1-02f8-40ad-a687-d3b13e2af93b</webElementGuid>
+      <value>53</value>
+      <webElementGuid>41359101-15ca-4fe4-9ed2-bc8c43e64be0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[45,1374][1035,1476]</value>
-      <webElementGuid>0dda26f4-c3dc-440d-8bec-ef000cd0b444</webElementGuid>
+      <value>[69,564][1011,617]</value>
+      <webElementGuid>008261eb-5eac-4e45-97df-9a53deed15d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ae96f723-ba34-4ce2-b42c-f3e6e3212917</webElementGuid>
+      <webElementGuid>2b16b9f0-434d-4257-b31f-715020c383c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/androidx.cardview.widget.CardView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]</value>
-      <webElementGuid>a0dd51e4-3804-458b-be8b-0a8e32d41464</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]</value>
+      <webElementGuid>13c48d88-8032-4806-b2b4-841e5c465784</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and @package = 'com.microsoft.office.outlook' and @displayed = 'true']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'New password doesn’t match' or . = 'New password doesn’t match')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

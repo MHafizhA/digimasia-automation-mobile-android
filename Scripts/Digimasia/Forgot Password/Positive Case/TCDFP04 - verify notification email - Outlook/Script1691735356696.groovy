@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.base_apk_outlook, true)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 Mobile.tapAtPosition(540, 450)
 

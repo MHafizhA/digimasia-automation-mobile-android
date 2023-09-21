@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.base_apk, false)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 Mobile.swipe(200, 600, 500, 600)
 

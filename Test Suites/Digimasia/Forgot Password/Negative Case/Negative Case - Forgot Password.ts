@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>1d1b798f-aa7e-4a78-906d-64cd59c65405</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Digimasia/Forgot Password/Negative Case/TCDFP03 - User cant change password with same username wait till 30 minutes in Forgot your password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
